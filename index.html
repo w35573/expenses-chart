@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Expenses chart component</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="balance-container">
+      <div class="desc">
+        <p>My balance</p>
+        <p>$921.48</p>
+      </div>
+      <div class="ring">
+        <img src="./images/logo.svg" alt="" />
+      </div>
+    </div>
+
+    <div class="charts-container">
+      <div class="heading">
+        <p>Spending - Last 7 days</p>
+      </div>
+
+      <div class="graph">
+        <div class="charts">
+          <div class="wtf">
+            <div class="amount-on-hover" id="1">$17.45</div>
+            <div id="mon" class="bar">1</div>
+          </div>
+
+          <div class="wtf">
+            <div class="amount-on-hover" id="2"></div>
+            <div id="tue" class="bar">2</div>
+          </div>
+
+          <div class="wtf">
+            <div class="amount-on-hover" id="3"></div>
+            <div id="wed" class="bar">3</div>
+          </div>
+
+          <div class="wtf">
+            <div class="amount-on-hover" id="4"></div>
+            <div id="thu" class="bar">4</div>
+          </div>
+
+          <div class="wtf">
+            <div class="amount-on-hover" id="5"></div>
+            <div id="fri" class="bar">5</div>
+          </div>
+
+          <div class="wtf">
+            <div class="amount-on-hover" id="6"></div>
+            <div id="sat" class="bar">6</div>
+          </div>
+
+          <div class="wtf">
+            <div class="amount-on-hover" id="0"></div>
+            <div id="sun" class="bar">0</div>
+          </div>
+        </div>
+
+        <div class="day-name">
+          <div class="day">mon</div>
+          <div class="day">tue</div>
+          <div class="day">wed</div>
+          <div class="day">thu</div>
+          <div class="day">fri</div>
+          <div class="day">sat</div>
+          <div class="day">sun</div>
+        </div>
+      </div>
+
+      <hr class="line" />
+
+      <div class="card-footer">
+        <div class="total">
+          <p class="total-text">Total this month</p>
+          <p class="total-val">$478.33</p>
+        </div>
+
+        <div class="change">
+          <p class="change-val">+2.4%</p>
+          <p class="change-text">from last month</p>
+        </div>
+      </div>
+    </div>
+
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="https://github.com/w35573" target="_blank">w35573</a>.
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
